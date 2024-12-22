@@ -71,7 +71,7 @@ select {
 
 .frameworks-list {
     list-style-image: url(image/Vector\ \(1\).png);
-    padding-left: 20px;
+    padding: 0px 20px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -79,7 +79,7 @@ select {
 .books-list {
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0px 20px;
 }
 
 .label {
@@ -123,16 +123,13 @@ table {
 }
 
 td {
-    padding-left: 15px;
-    padding-bottom: 12px;
-    padding-top: 11px;
+    padding: 12px 15px;
     font-weight: 400;
 }
 
 th { 
 font-weight: 700;
-padding-top: 12px;
-padding-bottom: 11px;
+padding: 12px 15px;
 text-align: center;
 }
 
@@ -140,8 +137,8 @@ text-align: center;
 footer {
     background-color: rgba(163, 167, 255, 0.3);
     height: 70px;
-    padding-top: 26px;
-    padding-bottom: 27px;
+    padding: 26px 0px;
+
 }
 
 .footer-link {
